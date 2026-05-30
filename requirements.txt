@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+Flask-JWT-Extended
+Flask-Migrate
+spacy
+scikit-learn
+pandas
+numpy
+python-dotenv
