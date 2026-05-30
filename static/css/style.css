@@ -1,3 +1,31 @@
 body {
+    background-color: #f4f7fc;
     font-family: Arial, sans-serif;
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 80px auto;
+}
+
+.auth-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-custom {
+    width: 100%;
 }
