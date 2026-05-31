@@ -9,7 +9,7 @@ from backend.database.extensions import db, migrate, jwt
 from backend.models import User
 
 from backend.routes.auth_routes import auth_bp
-
+from backend.routes.job_routes import job_bp
 
 def create_app():
 
@@ -39,6 +39,11 @@ def create_app():
         auth_bp,
         url_prefix="/api/auth"
     )
+    
+    app.register_blueprint(
+    job_bp,
+    url_prefix="/api/jobs"
+)
 
     print("Database Connected Successfully")
 
